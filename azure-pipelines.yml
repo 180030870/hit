@@ -45,3 +45,22 @@ steps:
 
 
 - script: python "sum.py"
+
+
+
+- task: PythonScript@0
+
+
+  inputs:
+
+
+    scriptSource: 'inline'
+
+
+    script: |
+
+
+      print('Hello world 1')
+
+
+      print('KLU')
